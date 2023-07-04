@@ -15,3 +15,6 @@ def generate_invoice():
 
     # Render the invoice HTML template with the provided data
     return render_template('invoice.html', company_name=company_name, customer_name=customer_name)
+
+if __name__ == '__main__':
+    app.run()
